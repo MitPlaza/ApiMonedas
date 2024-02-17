@@ -1,0 +1,56 @@
+body{
+    background-color: #232323;
+    color: #ffffff;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 30px 0px;
+    min-width: 100%;
+}
+
+.caja{
+    width: 400px;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.caja input,
+.caja select,
+.caja button{
+    width: 100%;
+}
+
+.caja button{
+    background-color: skyblue;
+}
+
+.titulo{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.tituloMoneda{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.caja button{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.grafica{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.grafica #myChart{
+    background-color: #232323;
+}
