@@ -14,8 +14,6 @@ let valorEuro
 let miMoneda = datoPesos.value
 let opcionTxt
 
-
-
 let myChart = null;
 
 // conectarse a la api
@@ -68,9 +66,7 @@ monedas()
 
 const agregarSelect = () => {
    select.addEventListener('change', () => {
-
-   
-            
+         
             cambioValor = select.value
             opcionTxt = select.options[select.selectedIndex].textContent;
             valoresTexto.textContent = `Últimos valores del ${opcionTxt}`;
@@ -84,10 +80,6 @@ const agregarSelect = () => {
 }
 
 agregarSelect()
-
-
-
-
 
 
 
@@ -239,7 +231,6 @@ function activarBtn(){
         btnCalcular.addEventListener('click', () => {
         
         
-        
             let miMoneda = datoPesos.value
             miMoneda = parseFloat(miMoneda)
         
@@ -272,8 +263,7 @@ function activarBtn(){
     }
     activarBtn()
     
-  
-
+  //Desarrollo de aplicacón para convertir pesos a dolares o euros
 
 
  
